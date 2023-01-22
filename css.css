@@ -1,0 +1,110 @@
+body{
+    background-image: url(background.img/background.jpg);  /*percorso file per immagine in background*/
+    background-size: cover; /*dimensionare l'immagine per tutta la pagina con cover*/
+    
+    
+}
+#logo{
+    margin-bottom: 8px;
+}
+div.contenitore{
+    padding-top:15px ;
+    display:flex; /*La proprietà "display: flex" 
+    attiva il layout flexbox per gli elementi "item" all'interno del contenitore.*/
+    flex-direction: column;/*imposta la direzione degli elementi flessibili in modo che siano in una colonna verticale. */
+    align-items: center;/*allinea tutti gli elementi figli di un contenitore lungo l'asse verticale, in modo che siano centrati all'interno del contenitore.*/
+}
+div.background-contenitore{
+    background-color: rgba(0,0, 0, 0.6);/*background di tutto quello che contiene il contenitore*/
+    padding:68px;/*padding backgroud*/
+    border-radius: 10px;/*bordi arrotondati background*/
+    
+    
+    
+}
+div.item{
+    flex:1; /* questo è il layout display:flex del contenitore*/
+    text-align: center; /*centriamo gli elementi del contenitore*/
+
+   
+}
+
+#titolo{
+color:rgb(63, 241, 63);/*colore del titolo*/
+font-size: 20px;/*dimensione titolo*/
+margin-bottom: 4px;/*margine titolo*/
+font-family: sans-serif; /*font del titolo*/
+}
+.background-button{
+    background-color:rgb(63, 241, 63) ;/*background dei pulsanti*/
+    padding: 5px;/*badding background*/
+    width:650px;/*larghezza background*/
+
+    
+}
+button{
+    font-size: 8px;/*grandezza pulsanti*/
+    
+    
+}
+.posizionamento-button{
+    margin-left: 220px;/*posizionamento pulsanti per centramento nel testo, utilizzando la proprieta margine*/
+}
+div.argomenti{
+margin-top: 20px;/*margine per distaccare i pulsanti dal primo argomento(Monopattino Gino22)*/
+}
+input[type="checkbox"]{
+    height: 10px;/*dimensioni altezza checkbox*/
+    margin-right: 0;/*margine destro checkbox*/
+    margin-bottom: 0;/*margine sotto la checkbox*/
+}
+.minititoli{
+    font-size: 18px;/*gradezza testo*/
+    color: white;/*colore tetso*/
+    font-family: Arial, Helvetica, sans-serif;/*font del testo*/
+    
+    
+}
+.arrow::after {/*con questa proprietà andiamo a inserire SUBITO DOPO l'elemento con classe arrow il testo che si trova su content*/
+    content: "Via Guadalametri - a 220 metri da te";
+    color: rgb(230, 230, 230);/*colore del testo content*/
+
+}
+p{
+    font-size: smaller;/*dimensione testo*/
+    color: rgb(230, 230, 230);/*colore testo*/
+    margin-top:3px;/*margine soopra il testo*/
+    margin-bottom:0 ;/*margine sotto*/
+}
+.background-carica{
+    margin-top: 2px;
+    width: 230px;/*larghezza bachground*/
+    height: 18px;/*altezza background*/
+    background-color: aqua; /*colore background*/
+    border-radius: 3px;/*bordi arrotondati background*/
+}
+.arrow2::after {
+    content: "Via Guadalametri - a 440 metri da te";
+    color: rgb(230, 230, 230);
+
+}
+.background-carica2{
+    margin-top: 2px;
+    width: 350px;
+    height: 18px;
+    background-color: gold;
+    border-radius: 3px;
+}
+.arrow3::after {
+    content: "Via Guadalametri - a 490 metri da te";
+    color: rgb(230, 230, 230);
+
+}
+.background-carica3{
+    margin-top: 2px;
+    width: 150px;
+    height: 18px;
+    background-color: rgb(179, 116, 0);
+    border-radius: 3px;
+}
+
